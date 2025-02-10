@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://valentine-maze-by-ivy.netlify.app/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentines Maze For U</title>
+    <!-- Link to external CSS -->
+    <link href="./Welcome_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./Welcome_files/style.css">
+<style>.mixl_awn-toast-tip{
+    border:none !important;
+    border-color:rgba(0,0,0,0) !important;
+    background:rgba(0,0,0,0) !important;
+    font-family:"wotfardregular" !important;
+    cursor:auto !important;
+    width:auto !important;
+    min-width:270px !important;
+    border-bottom-right-radius:0px !important
+}
+.mixl_awn-toast-tip.mixl_small_notification{
+    width:270px !important
+}
+.mixl_awn-toast-tip .mixl_awn-toast-wrapper{
+    padding:10px 28px 10px 32px !important;
+    border:1px solid rgba(49,49,49,.2705882353) !important;
+    background:#464646 !important;
+    color:#fff !important;
+    height:52px !important
+}
+.mixl_awn-toast-tip .mixl_awn-toast-wrapper .mixl_awn-toast-progress-bar{
+    display:none !important
+}
+.mixl_awn-toast-tip .mixl_awn-toast-wrapper .mixl_awn-toast-content{
+    margin-top:0 !important;
+    padding:0 !important;
+    font-size:14px !important;
+    font-weight:400 !important;
+    line-height:23px !important;
+    letter-spacing:0em !important;
+    color:#fff !important;
+    font-family:"wotfardregular" !important
+}
+.mixl_awn-toast-tip .mixl_awn-toast-wrapper .mixl_awn-toast-content p{
+    margin:0 !important
+}
+.mixl_awn-toast-tip .mixl_awn-toast-wrapper .mixl_awn-toast-content em{
+    font-weight:bolder !important
+}
+.mixl_awn-toast-tip .mixl_awn-toast-wrapper .mixl_awn-toast-label{
+    text-transform:none !important;
+    margin-left:0px !important;
+    font-size:16px !important;
+    font-weight:700 !important;
+    line-height:23px !important;
+    letter-spacing:0em !important;
+    color:#fff !important;
+    font-family:"wotfardregular" !important
+}
+.mixl_awn-toast-tip .mixl_awn-toast-wrapper .mixl_awn-toast-icon{
+    bottom:unset !important;
+    right:unset !important;
+    top:calc(50% - 15px) !important;
+    left:10px !important
+}
+.mixl_celebration{
+    position:absolute !important;
+    top:0 !important;
+    right:0 !important;
+    height:100% !important
+}
+.mixl_alertLogo{
+    width:10px !important;
+    height:10px !important;
+    position:absolute;
+    top:5px;
+    left:-3px
+}
+.mixl_label{
+    margin:0 !important;
+    color:#fff !important;
+    font-family:"wotfardregular" !important
+}
+.mixl_awn-toast-wrapper{
+    position:relative !important
+}
+.mixl_awn-toast-wrapper .title-heading{
+    color:#fff !important;
+    text-align:left !important;
+    font-family:wotfardbold !important;
+    font-style:normal !important;
+    font-weight:700 !important;
+    line-height:23.2px !important;
+    margin:0 !important;
+    padding:0 !important;
+    font-size:16px !important
+}
+.mixl_awn-toast-wrapper .beta-sign{
+    display:flex !important;
+    padding:0 !important;
+    justify-content:center !important;
+    align-items:center !important;
+    gap:.625rem !important;
+    border-radius:.3125rem !important;
+    background:rgba(0,0,0,0) !important;
+    color:#fe4d8a !important;
+    font-family:"wotfardregular" !important;
+    font-size:16px !important;
+    font-style:normal !important;
+    font-weight:700 !important;
+    line-height:23.2px !important;
+    margin-left:4px !important
+}
+.mixl_{
+    display:flex !important
+}
+.mixl_start_session,.mixl_btn_help,.mixl_close_tabs{
+    padding:0 !important;
+    background:rgba(0,0,0,0) !important;
+    border:none !important;
+    cursor:pointer !important;
+    height:32px !important;
+    font-family:"wotfardregular" !important;
+    text-align:left !important;
+    text-transform:none !important
+}
+.mixl_start_session{
+    height:20px !important;
+    font-size:14px !important;
+    font-weight:500 !important;
+    line-height:20.3px !important;
+    letter-spacing:0em !important;
+    color:#fe4d8a !important;
+    margin-top:0px !important
+}
+.mixl_close_tabs{
+    font-size:16px !important;
+    font-weight:400 !important;
+    line-height:23px !important;
+    letter-spacing:0em !important;
+    color:#7a7a7a !important;
+    margin-left:10px !important
+}
+.mixl_btn_help{
+    width:73px !important;
+    font-size:16px !important;
+    font-weight:400 !important;
+    line-height:19.2px !important;
+    position:absolute !important;
+    top:0px !important;
+    height:100% !important;
+    right:0px !important;
+    background:rgba(255,255,255,.0509803922) !important;
+    border-top-right-radius:5px !important;
+    padding:10px !important;
+    color:rgba(255,255,255,.4) !important
+}
+.mixl_btnLeftArrow{
+    background:rgba(0,0,0,0) !important;
+    border:none !important;
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center !important;
+    position:absolute !important;
+    top:calc(50% - 7.5px) !important;
+    right:12px !important;
+    padding:0 !important
+}
+.mixl_btnLeftArrow img{
+    width:15px !important;
+    height:15px !important
+}
+.mixl_btnClose{
+    background:rgba(0,0,0,0) !important;
+    border:none !important;
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center !important;
+    position:absolute !important;
+    top:15px !important;
+    right:15px !important;
+    padding:0 !important
+}
+.mixl_btnClose img{
+    width:15px !important;
+    height:15px !important
+}
+.mixl_bold_text{
+    font-family:wotfardbold !important;
+    font-style:normal !important;
+    font-weight:700 !important
+}
+.mixl_awn-toast{
+    background-color:#fff !important
+}
+#mixl_awn-toast-container .awn-toast-wrapper{
+    cursor:pointer
+}
+#mixl_awn-toast-container .mixl_pink-toast .mixl_awn-toast-wrapper{
+    background-color:rgba(254,77,138,.2) !important;
+    border:none !important
+}
+#mixl_awn-toast-container .mixl_pink-toast .mixl_awn-toast-wrapper .mixl_title-heading,#mixl_awn-toast-container .mixl_pink-toast .mixl_awn-toast-wrapper .mixl_awn-toast-content{
+    color:#0c0c0c !important
+}
+#mixl_awn-toast-container .mixl_black-toast .mixl_awn-toast-wrapper{
+    background-color:rgba(0,0,0,.8) !important;
+    border:none !important
+}
+
+</style><style>@keyframes mixlFadeIn{
+    from{
+        opacity:0
+    }
+    to{
+        opacity:1
+    }
+}
+@keyframes mixlFadeOut{
+    from{
+        opacity:1
+    }
+    to{
+        opacity:0
+    }
+}
+#mixl_ext_alert_root{
+    position:fixed;
+    z-index:214748364 !important;
+    display:flex;
+    flex-direction:column;
+    transition:all .5s ease;
+    gap:24px;
+    overflow:auto;
+    padding-block:12px
+}
+#mixl_ext_notification_container{
+    box-sizing:border-box !important;
+    width:321px !important;
+    border:1px solid #313131;
+    border-radius:10px;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px;
+    opacity:0;
+    background:rgba(0,0,0,.8);
+    cursor:pointer;
+    transform:translateX(100%);
+    transition:transform .2s ease-in-out,opacity .2s ease-in-out
+}
+#mixl_ext_notification_container #mixl_ext_widgetLogo{
+    width:15px;
+    height:15px
+}
+#mixl_ext_notification_container #mixl_ext_rightArrow{
+    width:15px !important;
+    height:15px !important;
+    position:absolute;
+    right:9px;
+    top:31%
+}
+#mixl_ext_notification_container #mixl_ext_label_notif{
+    color:#fff;
+    font-family:wotfardregular;
+    font-weight:400;
+    line-height:17.4px;
+    font-size:12px !important;
+    margin:0;
+    overflow:hidden;
+    text-overflow:ellipsis
+}
+.mixl_ext_visible_notif{
+    opacity:1 !important;
+    z-index:1 !important;
+    transform:translateX(0%) !important
+}
+.mixl_ext_invisible_notif{
+    opacity:0 !important;
+    z-index:0 !important
+}
+.mixl_ext_grey_notif{
+    border:1px solid #313131 !important;
+    background:#3d3d3d !important
+}
+.mixl_ext_black_notif{
+    border:1px solid #313131 !important;
+    background:#3b3b3b !important
+}
+.mixl_ext_pink_notif{
+    border:1px solid #fe4d8a !important;
+    background:rgba(254,77,138,.2) !important
+}
+#mixl_ext_widget_root.mixl_ext_fade-out{
+    animation:mixlFadeOut .2s forwards
+}
+#mixl_ext_widget_root{
+    border-radius:5px;
+    z-index:2147483647 !important;
+    position:fixed !important;
+    bottom:5% !important;
+    right:5% !important;
+    background:rgba(0,0,0,0);
+    width:321px;
+    max-width:321px;
+    backdrop-filter:blur(5px);
+    overflow:visible;
+    display:flex;
+    transition:width .7s,background .7s,right .7s,left .7s;
+    opacity:0;
+    animation:mixlFadeIn .3s forwards
+}
+#mixl_ext_widget_root #mixl_ext_root_container{
+    flex:1;
+    padding:0px;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    opacity:1;
+    background-color:rgba(0,0,0,.8);
+    border-radius:10px;
+    box-shadow:0px 0px 4px 0px rgba(70,70,70,.5019607843);
+    font-family:wotfardregular;
+    color:#fff;
+    border:1px solid #313131
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_closeButton{
+    left:-12px;
+    cursor:pointer;
+    display:none;
+    top:-12px;
+    width:22px;
+    height:22px;
+    position:absolute;
+    z-index:2147483648 !important;
+    border-radius:50%;
+    box-shadow:0px 0px 1px 0px rgba(115,115,115,.6509803922)
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_toolbox_root{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:calc(100% - 20px);
+    margin:0px 10px 5px
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_toolbox_root .mixl_focus_tools{
+    display:flex;
+    flex-direction:row
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_toolbox_root .mixl_focus_tools div{
+    cursor:pointer
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_toolbox_root #mixl_ext_btnTodoList{
+    cursor:pointer;
+    outline:none;
+    border:none;
+    padding:0;
+    width:20px;
+    height:20px;
+    background:rgba(0,0,0,0);
+    margin-left:40px
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_divider{
+    width:100%;
+    background:rgba(0,0,0,0);
+    border-bottom:1px solid rgba(255,255,255,.2);
+    margin:0
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_focus_divider{
+    width:1px;
+    height:100%;
+    background-color:rgba(255,255,255,.2);
+    margin:0
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_chat_root,#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_focus_input_root{
+    display:flex;
+    width:calc(100% - 20px);
+    gap:10px;
+    margin:auto;
+    justify-content:center
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_chat_root #mixl_ext_chat_container,#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_focus_input_root #mixl_ext_chat_container{
+    height:22px;
+    flex:1;
+    display:flex;
+    align-items:center;
+    gap:4px;
+    justify-content:center
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_chat_root #mixl_ext_chat_container #mixl_ext_appLogo,#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_focus_input_root #mixl_ext_chat_container #mixl_ext_appLogo{
+    width:15px;
+    height:15px;
+    min-width:15px;
+    min-height:15px
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_chat_root #mixl_ext_chat_container #mixl_ext_chat_input,#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_focus_input_root #mixl_ext_chat_container #mixl_ext_chat_input{
+    box-shadow:none;
+    cursor:auto;
+    text-overflow:ellipsis;
+    padding:0 8px;
+    outline:none;
+    color:#fff;
+    background:rgba(0,0,0,0);
+    margin:0;
+    border:none;
+    width:100%;
+    font-family:wotfardregular;
+    font-size:14px;
+    font-weight:400;
+    line-height:20.3px;
+    text-align:left
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_chat_root #mixl_ext_chat_container #mixl_ext_chat_input::placeholder,#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_focus_input_root #mixl_ext_chat_container #mixl_ext_chat_input::placeholder{
+    color:#fff;
+    font-family:wotfardregular;
+    font-size:12px;
+    font-weight:400;
+    line-height:17.4px;
+    text-align:left;
+    text-underline-position:from-font;
+    text-decoration-skip-ink:none;
+    opacity:50%
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_session_container{
+    width:100%;
+    height:25px;
+    margin:8px;
+    display:flex;
+    width:calc(100% - 16px);
+    align-items:flex-start;
+    border-bottom:1px solid rgba(255,255,255,.4)
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_timerLabel{
+    margin:0;
+    min-width:56px;
+    max-width:56px;
+    font-family:wotfardbold;
+    font-size:16px;
+    font-weight:700;
+    line-height:19.2px;
+    text-align:center;
+    width:100%;
+    color:#fff;
+    text-align:center;
+    text-align:right
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_startButton{
+    border:none;
+    cursor:pointer;
+    padding:2px;
+    border-radius:5px;
+    font-family:wotfardbold;
+    font-size:12px;
+    font-weight:700;
+    line-height:17.4px;
+    text-align:center;
+    color:#fff;
+    background:rgba(255,255,255,.2)
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_startButton:disabled{
+    opacity:.8;
+    cursor:auto
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_endButton{
+    border:none;
+    cursor:pointer;
+    padding:2px;
+    border-radius:5px;
+    font-family:wotfardregular;
+    font-size:14px;
+    font-weight:bold;
+    line-height:16.8px;
+    text-align:center;
+    color:#fff;
+    background:rgba(255,255,255,.2)
+}
+#mixl_ext_widget_root #mixl_ext_root_container #mixl_ext_endButton:disabled{
+    opacity:.5
+}
+.mixl_focus_container{
+    position:relative;
+    width:52px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:4px
+}
+.mixl_focus_container .mixl_focus_meter{
+    width:100%;
+    max-width:75px;
+    font-family:wotfardregular;
+    font-size:12px;
+    font-weight:400;
+    line-height:17.4px;
+    text-align:center;
+    color:#fff
+}
+.mixl_focus_container .mixl_focus_meter .mixl_focus_meter_body{
+    width:100%;
+    height:0;
+    padding-bottom:50%;
+    background:rgba(255,255,255,.2);
+    position:relative;
+    border-top-left-radius:100% 200%;
+    border-top-right-radius:100% 200%;
+    overflow:hidden
+}
+.mixl_focus_container .mixl_focus_meter .mixl_focus_meter_body .mixl_focus_meter_fill{
+    position:absolute;
+    top:100%;
+    left:0;
+    width:inherit;
+    height:100%;
+    background:#9747ff;
+    transform-origin:center top;
+    transform:rotate(0.5turn);
+    transition:transform .2s ease-out
+}
+.mixl_focus_container .mixl_focus_meter .mixl_focus_meter_body .mixl_focus_meter_text{
+    z-index:100;
+    position:absolute;
+    top:45%;
+    width:100%;
+    left:calc(100% - 50px);
+    font-family:wotfardbold;
+    font-size:12px;
+    font-weight:700;
+    line-height:17.5px;
+    text-align:center
+}
+.mixl_focus_container .mixl_focus_meter .mixl_focus_meter_body .mixl_focus_meter_cover{
+    width:85%;
+    height:150%;
+    border-radius:50%;
+    position:absolute;
+    background:rgba(0,0,0,.6);
+    top:13%;
+    left:50%;
+    transform:translate(-50%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:wotfardbold;
+    font-size:10px;
+    font-weight:700;
+    line-height:14.5px;
+    text-align:center
+}
+.mixl_focus_container #focusTextLabel{
+    display:none;
+    color:#ccc;
+    margin-top:8px;
+    font-family:wotfardregular;
+    font-size:12px;
+    font-weight:400;
+    line-height:17.4px;
+    text-align:center
+}
+.mixl_music_tool{
+    padding:0px;
+    justify-content:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:8px;
+    border-left:1px solid rgba(255,255,255,.2);
+    border-right:1px solid rgba(255,255,255,.2);
+    position:relative;
+    width:50px
+}
+.mixl_music_tool .mixl_brainwave_container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:relative;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
+.mixl_biometrics_stats{
+    justify-content:center;
+    align-items:center;
+    padding:0px 4px;
+    display:flex;
+    position:relative
+}
+.mixl_biometrics_stats #mixl_ext_btn_biometrics{
+    width:30px;
+    height:30px
+}
+.mixl_biometrics_stats #mixl_ext_btn_lockIcon{
+    width:10px;
+    height:10px;
+    position:absolute;
+    left:calc(50% - 5px);
+    top:calc(50% - 5px)
+}
+.mixl_site_blocker{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    border-right:1px solid rgba(255,255,255,.2);
+    position:relative;
+    width:50px
+}
+.mixl_site_blocker .mixl_site_count_section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100%
+}
+.mixl_site_blocker .mixl_site_count_section #mixl_ext_blockerImage{
+    width:25px;
+    height:25px;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    object-fit:cover;
+    z-index:0
+}
+.mixl_site_blocker .mixl_site_count_section #sitecountTextLabel{
+    font-family:wotfardbold;
+    font-size:12px;
+    font-weight:700;
+    line-height:17.4px;
+    text-align:center
+}
+.mixl_site_blocker #blockerTextLabel{
+    display:none;
+    font-family:wotfardregular;
+    font-size:12px;
+    font-weight:400;
+    line-height:17.4px;
+    text-align:center;
+    color:#ccc
+}
+.mixl_site_blocker #sitecountTextLabel,.mixl_site_blocker #blockerTextLabel{
+    position:relative;
+    z-index:1;
+    text-align:center
+}
+.mixl_ext_widget_root_hover #mixl_ext_root_container #mixl_ext_toolbar_container{
+    display:flex !important
+}
+.mixl_ext_widget_root_hover #mixl_ext_root_container #mixl_ext_closeButton{
+    display:block !important
+}
+.mixl_ext_widget_root_hover #mixl_ext_root_container #mixl_ext_timerLabel{
+    color:#fff !important
+}
+#mixlApp{
+    width:324px;
+    height:300px;
+    position:fixed;
+    top:calc(50% - 162px);
+    left:calc(50% - 150px);
+    border-radius:10px;
+    border:1px solid #313131
+}
+.mixl_ext_disabled{
+    opacity:.5;
+    cursor:auto !important
+}
+.mixl_ext_enabled{
+    cursor:pointer !important;
+    opacity:1
+}
+.mixl_ext_hidden{
+    display:none !important
+}
+#mixl_ext_TextSelector{
+    display:none !important
+}
+#mixl_ext_musicImage{
+    width:25px;
+    height:25px;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    object-fit:cover;
+    z-index:0
+}
+#frequencyTextLabel{
+    font-family:wotfardbold;
+    font-weight:700;
+    line-height:17.4px;
+    text-align:center;
+    font-size:12px;
+    width:32px
+}
+#stationTextLabel{
+    display:none;
+    font-family:wotfardregular;
+    font-size:12px;
+    font-weight:400;
+    line-height:17.4px;
+    text-align:center;
+    color:#ccc
+}
+#frequencyTextLabel,#stationTextLabel{
+    position:relative;
+    z-index:1;
+    text-align:center
+}
+#mixl_ext_actionButton{
+    outline:0;
+    background:rgba(0,0,0,0);
+    border-radius:5px;
+    color:#fff;
+    font-family:wotfardbold;
+    font-size:14px;
+    font-weight:700;
+    line-height:16.8px;
+    text-align:left;
+    text-decoration-skip-ink:none;
+    padding:5px;
+    border:none;
+    cursor:pointer;
+    position:relative
+}
+#mixl_notif_closeButton{
+    left:-12px;
+    cursor:pointer;
+    display:block;
+    top:-12px;
+    width:22px;
+    height:22px;
+    position:absolute;
+    z-index:2147483648 !important;
+    border-radius:50%;
+    box-shadow:0px 0px 1px 0px rgba(115,115,115,.6509803922)
+}
+.mixl_task_name_container{
+    width:65px;
+    font-family:wotfardbold;
+    font-size:12px;
+    font-weight:700;
+    line-height:17.4px;
+    text-align:left;
+    text-underline-position:from-font;
+    text-decoration-skip-ink:none;
+    color:rgba(255,255,255,.6);
+    text-align:center;
+    margin:auto 11px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden
+}
+</style></head> <body data-new-gr-c-s-check-loaded="14.1221.0" data-gr-ext-installed=""> <!-- Start Screen --> <div id="start-screen"> <h1>Valentine's Maze</h1> <button onclick="startGame()">Start Game</button> </div> <!-- Game Over Screen --> <div id="game-over-screen"> <h1>luh :( ulit ka po plz :(</h1> <button onclick="restartGame()">Restart</button> </div> <!-- Game Content --> <h7 id="heading">Oh, hi there! May I be your Valentine?<br>btwbtw may surprise if u win :D</br></h7> <canvas id="canvas" width="520" height="400"></canvas> <!-- Link to external JavaScript at the end of the body for best practices --> <script src="./Welcome_files/script.js.download"></script> 
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
